@@ -13,8 +13,8 @@ font-size: 25px;
 /* Can be forced with data-theme="light" */
 [data-theme="light"],
 :root:not([data-theme="dark"]) {
-  --primary: rgb(94 53 177);
-  --primary-hover: rgb(58, 10, 153);
+  --primary: rgb(74, 28, 167);
+  --primary-hover: rgb(36, 0, 107);
   --primary-focus: rgba(216, 27, 96, 0.125);
   --primary-inverse: #FFF;
 }
@@ -28,14 +28,23 @@ font-size: 25px;
   align-items: center;
  width: 100%;
  height: 250px;
- background-color: rgb(94 53 177);
+ background-color: rgb(62, 15, 156);
  border-radius: 10px;
  padding: 5px;
  color: rgb(255, 255, 255);
 }
+.lado-direito a img{
+  filter: invert(1);
+}
 .lado-direito img{
   border-radius: 50%;
  
+}
+#dadosLadoDireito label{
+  font-family: 'Times New Roman', Times, serif;
+font-size: 30px;
+font-weight: 800;
+
 }
 a{
   color: rgb(255, 255, 255);
