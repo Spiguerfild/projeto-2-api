@@ -23,7 +23,7 @@ font-size: 25px;
 .lado-direito{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   text-align: center;
   align-items: center;
  width: 100%;
@@ -40,13 +40,23 @@ font-size: 25px;
   border-radius: 50%;
  
 }
+
 #dadosLadoDireito label{
   font-family: 'Times New Roman', Times, serif;
 font-size: 30px;
 font-weight: 800;
 
 }
+.lado-direito::before{
+  font-size: 50px;
+}
 a{
   color: rgb(255, 255, 255);
 
+}
+.lclz-perfil-aguarde{
+  color: #FFF;
+  font-size: 30px;
+  padding-top: 90px;
+  
 }
